@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id님"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나의 정보"
+        />
+    <Button
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나의 사진"
+        />
+    <Button
+        android:id="@+id/edu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나의 수업"
+        />
+    <Button
+        android:id="@+id/gugu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="구구단을 보자"
+        />
+    <Button
+        android:id="@+id/config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="환경 설정"
+        />
+
+</LinearLayout>
