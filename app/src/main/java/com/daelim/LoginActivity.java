@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(co_pwd != null){
                     String id = sp.getString("id",id_2.getText().toString());
                     String pwd= sp.getString("pwd",co_pwd);
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, choigiryong.class);
                     intent.putExtra("id",id);
                     intent.putExtra("pwd",pwd);
                     startActivity(intent);
@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
                 }else{
                     String id = sp.getString("id",id_2.getText().toString());
                     String pwd= sp.getString("pwd",pwd_2.getText().toString());
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, choigiryong.class);
                     intent.putExtra("id",id);
                     intent.putExtra("pwd",pwd);
                     startActivity(intent);

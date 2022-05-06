@@ -56,7 +56,7 @@ public class ConfigActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String co_nick = sp.getString("nick",ed_nick.getText().toString());
-                Intent i = new Intent(ConfigActivity.this,MainActivity.class);
+                Intent i = new Intent(ConfigActivity.this, choigiryong.class);
                 i.putExtra("nick",co_nick);
                 startActivity(i);
                 finish();

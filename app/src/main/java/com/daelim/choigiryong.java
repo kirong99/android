@@ -4,14 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-public class MainActivity extends AppCompatActivity {
+public class choigiryong extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,profileActivity.class);
+                Intent i = new Intent(choigiryong.this,profileActivity.class);
                 startActivity(i);
             }
         });
@@ -50,28 +47,28 @@ public class MainActivity extends AppCompatActivity {
         pic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,picActivity.class);
+                Intent i = new Intent(choigiryong.this,picActivity.class);
                 startActivity(i);
             }
         });
         edu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,ListActivity.class);
+                Intent i = new Intent(choigiryong.this,ListActivity.class);
                 startActivity(i);
             }
         });
         gugu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,guguActivity.class);
+                Intent i = new Intent(choigiryong.this,guguActivity.class);
                 startActivity(i);
             }
         });
         config.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,ConfigActivity.class);
+                Intent i = new Intent(choigiryong.this,ConfigActivity.class);
                 i.putExtra("pwd",pwd);
                 startActivity(i);
             }
